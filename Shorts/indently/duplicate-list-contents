@@ -1,0 +1,17 @@
+from copy import deepcopy
+
+car_names = ["lamborghini","Ferrari", "Maserati", "Benz"]
+print("car_names ID",id(car_names))
+
+# copies list data but same memory ID
+new_car_list1=car_names
+print("copies list data but same memory ID")
+print("car_names ID 1",id(new_car_list1))
+
+print("copies list data but differert memory ID")
+new_car_cp2=car_names*1
+print("car_names ID 2",id(new_car_cp2))
+
+print("copies list data but differert memory ID")
+new_car_cp3=deepcopy(car_names*4)
+print("car_names ID 3",id(new_car_cp3))

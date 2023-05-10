@@ -1,0 +1,91 @@
+
+************************************
+"""
+list
+map
+reduce
+filter
+sort
+unpacking
+dummy variable
+try catch else
+try and finally
+*args
+sep"-->"
+if else with dict
+string builder for memory efficent
+ternary operator
+*args
+**kwargs
+partial functions
+for else
+while else
+module
+json data format
+Python Lambda Expressions
+pickle
+raise
+self
+class method
+instance method
+@decortor
+default parameters are always at the end of the list
+str()
+int()
+recursion: mirror <-> mirror
+
+
+************************************
+self
+class
+object
+instance method
+static method
+private vaiables
+private methods
+inherirtance
+super()
+super().__init__(name,age)
+abc: abstract base class
+from abc import ABC
+@property
+... as palce holder
+import module
+importing packages
+packages vs library
+with
+functions with an function can be created...
+global
+func vs method
+methods belongs to class
+functions are independent can be clalled without instance
+
+************************************
+__init__: dunder method()
+__repr__
+__str__
+@classmethod
+The class method can only access class attributes, but not the instance attributes.
+It will raise an error if trying to access the instance attribute in the class method.
+
+class variables  are declared without self
+
+@class attributes
+cls: class method acts only on class.. they do not have self not access to instance method
+ex:
+@classsmethod
+def number_of_prople(cls)
+    return cls.number _of_people
+
+@static method
+   def display_company(name: str):
+       ßreturn name.capitalize()
+
+print(Print_Info.display_company("shell"))
+
+************************************
+
+
+
+
+
