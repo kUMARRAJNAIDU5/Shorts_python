@@ -1,6 +1,7 @@
 class Student:
     def __init__(self, name):
         self.__name = name
+        self.__location= "Sydney"
 
     @property
     def name(self):
@@ -17,4 +18,5 @@ class Student:
 
 
 s = Student('Steve')
+print(s.name)
 print(s.name)
