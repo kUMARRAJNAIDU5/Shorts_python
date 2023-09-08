@@ -59,6 +59,36 @@ global
 func vs method
 methods belongs to class
 functions are independent can be clalled without instance
+How to call private methods and variables
+name managling
+class Lamp:
+    def __init__(self, name:str, model:str):
+        self.name=name
+        self.__model= model
+
+    def description(self):
+        print(self.name, self.__model)
+        # how to call private method inside normal method
+        self.__self_maintenance()
+
+    # private method been defined
+    def __self_maintenance(self):
+        print('private method been called within class')
+
+lamp:Lamp = Lamp('led lamp',1023)
+print(lamp.description())
+print(lamp._Lamp__model)
+print(lamp._Lamp__self_maintenance())
+
+diff bw _ vs __
+_version
+__model
+
+print(isinstance(person, Employee))  # False
+print(issubclass(Employee, Person)) # True
+
+
+
 
 ************************************
 __init__: dunder method()

@@ -24,8 +24,8 @@ print('********************************************')
 # Copy() creates a new memory space and object... always use with collection dataytyuoe
 car_names = ["lamborghini","Ferrari", "Maserati", "Benz"]
 car_names_copy= car_names.copy()
-
-car_names_copy= car_names
+#
+# car_names_copy= car_names
 print("car_names :{} anb ID:{}: ".format(car_names,id(car_names)))
 print("car_names_copy :{} anb ID:{}: ".format(car_names_copy,id(car_names_copy)))
 
