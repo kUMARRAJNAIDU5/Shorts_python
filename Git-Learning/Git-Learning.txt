@@ -4,4 +4,12 @@ Company: Cisco,Telstra
 Adrress: Bangalore
 Skill Set: App Developer, Debugging skill
 
+************************************
+TRIPS
+Europe
+Auz
+Turkey
+************************************
+
+
 
